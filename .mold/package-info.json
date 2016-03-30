@@ -1,0 +1,56 @@
+{
+	"packages": {
+		"Mold": {
+			"sources": [
+				{
+					"path": "Mold/Core/Validation.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Version.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/__.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Sequence.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/NPM.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/VM.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold.js",
+					"type": "file"
+				}
+			],
+			"dependencies": []
+		},
+		"Mold.Core.Event": {
+			"sources": [
+				{
+					"path": "Mold/Core/Event.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/EventStore.js",
+					"type": "file"
+				}
+			],
+			"dependencies": [
+				{
+					"name": "Mold",
+					"path": "https://raw.githubusercontent.com/jailkey/MoldJS/master/",
+					"version": "0.2.3"
+				}
+			]
+		}
+	}
+}
