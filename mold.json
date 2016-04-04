@@ -17,7 +17,7 @@
 		"Mold": "Mold"
 	},
 	"seeds": [
-		"Mold.Core.Test.Tester"
+		"Mold.Core.Test.Tester",
 		"Mold.CMD.Test"
 	]
 }
