@@ -7,3 +7,8 @@ Mold.js
 /Mold/Core/VM.js
 /Mold/Core/EventStore.js
 /Mold/Core/Event.js
+/Mold/Core/CLIHelper.js
+/Mold/Core/CLIForm.js
+/Mold/Core/Logger.js
+/Mold/Core/CLI.js
+/Mold/Core/Command.js

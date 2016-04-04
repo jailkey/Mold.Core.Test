@@ -11,6 +11,11 @@
 			"name": "Mold.Core.Event",
 			"path": "https://raw.githubusercontent.com/jailkey/Mold.Core.Event/master/",
 			"version": "0.0.1"
+		},
+		{
+			"name": "Mold.Core.CLI",
+			"path": "https://raw.githubusercontent.com/jailkey/MoldCLI/master/",
+			"version": "0.2.2"
 		}
 	],
 	"repositories": {

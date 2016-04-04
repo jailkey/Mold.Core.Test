@@ -51,6 +51,37 @@
 					"version": "0.2.3"
 				}
 			]
+		},
+		"Mold.Core.CLI": {
+			"sources": [
+				{
+					"path": "Mold/Core/CLIHelper.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/CLIForm.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Logger.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/CLI.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Command.js",
+					"type": "file"
+				}
+			],
+			"dependencies": [
+				{
+					"name": "Mold",
+					"path": "https://raw.githubusercontent.com/jailkey/MoldJS/master/",
+					"version": "0.2.3"
+				}
+			]
 		}
 	}
 }
