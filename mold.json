@@ -16,8 +16,8 @@
 	"repositories": {
 		"Mold": "Mold"
 	},
-	"seeds": [
+	"seeds" : [
 		"Mold.Core.Test.Tester",
-		"Mold.CMD.Test"
+		"Mold.CMD.Test",
 	]
 }
