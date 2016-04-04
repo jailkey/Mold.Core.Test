@@ -33,7 +33,7 @@ Seed({
 								Helper.error("No test specified for [" + seed.name + "]").lb();
 							}else{
 								Mold.load(seed.test).then(function(testSeed){
-									var tester = new Mold.Core.Tester();
+									var tester = new Tester();
 									tester.addReporter(new Reporter(Helper))
 									tester.test(testSeed)
 									tester.run();
