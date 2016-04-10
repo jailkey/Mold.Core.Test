@@ -35,7 +35,7 @@ Seed({
 								Mold.load(seed.test).then(function(testSeed){
 									var tester = new Tester();
 									tester.addReporter(new Reporter(Helper))
-									tester.test(testSeed)
+									tester.test(testSeed, seed)
 									tester.run();
 								})
 							}

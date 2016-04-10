@@ -773,7 +773,7 @@ Seed({
 		 * @param  {function} testFunction 
 		 * @return {void} 
 		 */
-		var _test = function(testSeed){
+		var _test = function(testSeed, target){
 			
 			var interfaceString = "",
 				args = [];
@@ -787,7 +787,7 @@ Seed({
 				interfaceString += "var " + name + " = this['" + name +"']; \n";
 			}
 	
-			var theTest = new Function(interfaceString + "\n; (" + testSeed.code + "())")
+			var theTest = new Function(interfaceString + "\n; (" + testSeed.code + "(" + target.executedValue + "))")
 			
 			//var theTest = Mold.injectBefore(testFunction, interfaceString)
 			theTest.apply(this, args);
