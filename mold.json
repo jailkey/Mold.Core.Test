@@ -3,11 +3,6 @@
 	"version": "0.0.1",
 	"dependencies": [
 		{
-			"name": "Mold",
-			"path": "https://raw.githubusercontent.com/jailkey/MoldJS/master/",
-			"version": "0.2.3"
-		},
-		{
 			"name": "Mold.Core.Event",
 			"path": "https://raw.githubusercontent.com/jailkey/Mold.Core.Event/master/",
 			"version": "0.0.1"
@@ -15,7 +10,12 @@
 		{
 			"name": "Mold.Core.CLI",
 			"path": "https://raw.githubusercontent.com/jailkey/MoldCLI/master/",
-			"version": "0.2.2"
+			"version": "0.2.4"
+		},
+		{
+			"name": "Mold",
+			"path": "https://raw.githubusercontent.com/jailkey/MoldJS/master/",
+			"version": "0.2.3"
 		}
 	],
 	"repositories": {
