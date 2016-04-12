@@ -787,7 +787,7 @@ Seed({
 				interfaceString += "var " + name + " = this['" + name +"']; \n";
 			}
 	
-			var theTest = new Function(interfaceString + "\n; (" + testSeed.code + "(" + target.executedValue + "))")
+			var theTest = new Function(interfaceString + "\n; (" + testSeed.code + "(Mold.Core.SeedManager.get('" + target.name + "').executedValue))")
 			
 			//var theTest = Mold.injectBefore(testFunction, interfaceString)
 			theTest.apply(this, args);
