@@ -23,6 +23,7 @@
 	},
 	"seeds": [
 		"Mold.Core.Test.Tester",
+		"Mold.Core.Test.CLIReporter",
 		"Mold.CMD.Test"
 	]
 }
