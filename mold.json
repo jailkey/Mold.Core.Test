@@ -8,14 +8,14 @@
 			"version": "0.0.1"
 		},
 		{
-			"name": "Mold.Core.CLI",
-			"path": "https://raw.githubusercontent.com/jailkey/MoldCLI/master/",
-			"version": "0.2.4"
-		},
-		{
 			"name": "Mold",
 			"path": "https://raw.githubusercontent.com/jailkey/MoldJS/master/",
 			"version": "0.2.3"
+		},
+		{
+			"name": "Mold.Core.CLIHelper",
+			"path": "https://raw.githubusercontent.com/jailkey/Mold.Core.CLIHelper/master/",
+			"version": "0.0.1"
 		}
 	],
 	"repositories": {

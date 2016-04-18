@@ -12,3 +12,4 @@ Mold.js
 /Mold/Core/Logger.js
 /Mold/Core/CLI.js
 /Mold/Core/Command.js
+/Mold/Core/CLILoadingBar.js
