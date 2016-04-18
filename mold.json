@@ -22,8 +22,10 @@
 		"Mold": "Mold"
 	},
 	"seeds": [
-		"Mold.Core.Test.Tester",
+		"Mold.CMD.Test",
 		"Mold.Core.Test.CLIReporter",
-		"Mold.CMD.Test"
+		"Mold.Core.Test.ConsoleReporter",
+		"Mold.Core.Test.Tester",
+		"Mold.Test.Core.Tester"
 	]
 }

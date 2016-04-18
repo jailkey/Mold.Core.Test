@@ -1,0 +1,75 @@
+{
+	"packages": {
+		"Mold": {
+			"sources": [
+				{
+					"path": "Mold/Core/VM.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/NPM.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Validation.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/__.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Version.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold.js",
+					"type": "file"
+				}
+			],
+			"dependencies": [
+				{
+					"name": "Mold.Core.Test",
+					"path": "https://raw.githubusercontent.com/jailkey/Mold.Core.Test/master/",
+					"version": "0.0.1"
+				}
+			]
+		},
+		"Mold.Core.Event": {
+			"sources": [
+				{
+					"path": "Mold/Core/EventStore.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Event.js",
+					"type": "file"
+				}
+			],
+			"dependencies": [
+				{
+					"name": "Mold",
+					"path": "https://raw.githubusercontent.com/jailkey/MoldJS/master/",
+					"version": "0.2.3"
+				}
+			]
+		},
+		"Mold.Core.CLIHelper": {
+			"sources": [
+				{
+					"path": "Mold/Core/CLIForm.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/CLIHelper.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Core/CLILoadingBar.js",
+					"type": "file"
+				}
+			],
+			"dependencies": []
+		}
+	}
+}
