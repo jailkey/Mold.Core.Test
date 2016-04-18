@@ -16,6 +16,11 @@
 			"name": "Mold.Core.CLIHelper",
 			"path": "https://raw.githubusercontent.com/jailkey/Mold.Core.CLIHelper/master/",
 			"version": "0.0.1"
+		},
+		{
+			"name": "Mold.Core.Logger",
+			"path": "https://raw.githubusercontent.com/jailkey/Mold.Core.Logger/master/",
+			"version": "0.0.1"
 		}
 	],
 	"repositories": {
