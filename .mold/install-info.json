@@ -25,6 +25,10 @@
 				{
 					"path": "Mold.js",
 					"type": "file"
+				},
+				{
+					"path": "Mold/Core/Sequence.js",
+					"type": "file"
 				}
 			],
 			"dependencies": [
@@ -43,6 +47,10 @@
 				},
 				{
 					"path": "Mold/Core/Event.js",
+					"type": "file"
+				},
+				{
+					"path": "Mold/Test/Core/Event.js",
 					"type": "file"
 				}
 			],
