@@ -26,10 +26,17 @@
 	"repositories": {
 		"Mold": "Mold"
 	},
+	"sources" : [
+		"test.html"
+	],
+	"mainSeeds": [
+		"Mold.Core.Test.Integrate"
+	],
 	"seeds": [
 		"Mold.CMD.Test",
 		"Mold.Core.Test.CLIReporter",
 		"Mold.Core.Test.ConsoleReporter",
+		"Mold.Core.Test.Integrate",
 		"Mold.Core.Test.Tester",
 		"Mold.Test.Core.Tester"
 	]
