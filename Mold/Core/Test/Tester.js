@@ -454,6 +454,16 @@ Seed({
 						throw new Error(input + " is " +((negate) ? "not " : "")+ "not an array!")
 					}
 				},
+				toBeFunction : function(){
+					if(	
+						!negate && typeof input === 'function' 
+						|| negate && typeof input !== 'function' 
+					){
+						return _expect(input);
+					}else{
+						throw new Error(input + " is " +((negate) ? "not " : "")+ "not a function!")
+					}
+				},
 				toEqual : function(value){
 					if(typeof value === "function"){
 						if(
